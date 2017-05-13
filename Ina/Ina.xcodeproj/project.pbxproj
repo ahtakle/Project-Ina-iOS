@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		73C1BD801EC6E96000DAF885 /* MapController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73C1BD7F1EC6E96000DAF885 /* MapController.swift */; };
+		73C1BD821EC6F45A00DAF885 /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73C1BD811EC6F45A00DAF885 /* Location.swift */; };
+		73C1BD861EC6F99E00DAF885 /* CalendarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73C1BD851EC6F99E00DAF885 /* CalendarController.swift */; };
 		ABF2C14D1E78A52800685243 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABF2C14C1E78A52800685243 /* AppDelegate.swift */; };
 		ABF2C14F1E78A52800685243 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABF2C14E1E78A52800685243 /* ViewController.swift */; };
 		ABF2C1521E78A52800685243 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ABF2C1501E78A52800685243 /* Main.storyboard */; };
@@ -15,6 +18,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		73C1BD7F1EC6E96000DAF885 /* MapController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapController.swift; sourceTree = "<group>"; };
+		73C1BD811EC6F45A00DAF885 /* Location.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
+		73C1BD851EC6F99E00DAF885 /* CalendarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalendarController.swift; sourceTree = "<group>"; };
 		ABF2C1491E78A52800685243 /* Ina.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ina.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ABF2C14C1E78A52800685243 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ABF2C14E1E78A52800685243 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -60,6 +66,9 @@
 				ABF2C1531E78A52800685243 /* Assets.xcassets */,
 				ABF2C1551E78A52800685243 /* LaunchScreen.storyboard */,
 				ABF2C1581E78A52800685243 /* Info.plist */,
+				73C1BD7F1EC6E96000DAF885 /* MapController.swift */,
+				73C1BD811EC6F45A00DAF885 /* Location.swift */,
+				73C1BD851EC6F99E00DAF885 /* CalendarController.swift */,
 			);
 			path = Ina;
 			sourceTree = "<group>";
@@ -138,6 +147,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				ABF2C14F1E78A52800685243 /* ViewController.swift in Sources */,
+				73C1BD801EC6E96000DAF885 /* MapController.swift in Sources */,
+				73C1BD861EC6F99E00DAF885 /* CalendarController.swift in Sources */,
+				73C1BD821EC6F45A00DAF885 /* Location.swift in Sources */,
 				ABF2C14D1E78A52800685243 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -300,6 +312,7 @@
 				ABF2C15D1E78A52800685243 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
