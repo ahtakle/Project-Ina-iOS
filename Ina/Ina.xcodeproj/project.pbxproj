@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7305D9941ED7520300ADF5FD /* GlossaryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7305D9931ED7520300ADF5FD /* GlossaryTableViewCell.swift */; };
+		7305D9961ED7548300ADF5FD /* GlossaryTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7305D9951ED7548300ADF5FD /* GlossaryTableViewController.swift */; };
+		7305D9981ED7556F00ADF5FD /* Glossary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7305D9971ED7556F00ADF5FD /* Glossary.swift */; };
+		7305D99C1ED78EBE00ADF5FD /* test1.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 7305D99B1ED78EBE00ADF5FD /* test1.pdf */; };
+		7305D99E1EDA223300ADF5FD /* test2.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 7305D99D1EDA223300ADF5FD /* test2.pdf */; };
 		73C1BD801EC6E96000DAF885 /* MapController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73C1BD7F1EC6E96000DAF885 /* MapController.swift */; };
 		73C1BD821EC6F45A00DAF885 /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73C1BD811EC6F45A00DAF885 /* Location.swift */; };
 		73C1BD861EC6F99E00DAF885 /* CalendarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73C1BD851EC6F99E00DAF885 /* CalendarController.swift */; };
@@ -18,6 +23,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7305D9931ED7520300ADF5FD /* GlossaryTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GlossaryTableViewCell.swift; sourceTree = "<group>"; };
+		7305D9951ED7548300ADF5FD /* GlossaryTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GlossaryTableViewController.swift; sourceTree = "<group>"; };
+		7305D9971ED7556F00ADF5FD /* Glossary.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Glossary.swift; sourceTree = "<group>"; };
+		7305D99B1ED78EBE00ADF5FD /* test1.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = test1.pdf; path = ../../../../../Downloads/test1.pdf; sourceTree = "<group>"; };
+		7305D99D1EDA223300ADF5FD /* test2.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = test2.pdf; path = ../../../../test2.pdf; sourceTree = "<group>"; };
 		73C1BD7F1EC6E96000DAF885 /* MapController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapController.swift; sourceTree = "<group>"; };
 		73C1BD811EC6F45A00DAF885 /* Location.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
 		73C1BD851EC6F99E00DAF885 /* CalendarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalendarController.swift; sourceTree = "<group>"; };
@@ -60,6 +70,8 @@
 		ABF2C14B1E78A52800685243 /* Ina */ = {
 			isa = PBXGroup;
 			children = (
+				7305D99B1ED78EBE00ADF5FD /* test1.pdf */,
+				7305D99D1EDA223300ADF5FD /* test2.pdf */,
 				ABF2C14C1E78A52800685243 /* AppDelegate.swift */,
 				ABF2C14E1E78A52800685243 /* ViewController.swift */,
 				ABF2C1501E78A52800685243 /* Main.storyboard */,
@@ -69,6 +81,9 @@
 				73C1BD7F1EC6E96000DAF885 /* MapController.swift */,
 				73C1BD811EC6F45A00DAF885 /* Location.swift */,
 				73C1BD851EC6F99E00DAF885 /* CalendarController.swift */,
+				7305D9931ED7520300ADF5FD /* GlossaryTableViewCell.swift */,
+				7305D9951ED7548300ADF5FD /* GlossaryTableViewController.swift */,
+				7305D9971ED7556F00ADF5FD /* Glossary.swift */,
 			);
 			path = Ina;
 			sourceTree = "<group>";
@@ -134,7 +149,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				ABF2C1571E78A52800685243 /* LaunchScreen.storyboard in Resources */,
+				7305D99C1ED78EBE00ADF5FD /* test1.pdf in Resources */,
 				ABF2C1541E78A52800685243 /* Assets.xcassets in Resources */,
+				7305D99E1EDA223300ADF5FD /* test2.pdf in Resources */,
 				ABF2C1521E78A52800685243 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -148,9 +165,12 @@
 			files = (
 				ABF2C14F1E78A52800685243 /* ViewController.swift in Sources */,
 				73C1BD801EC6E96000DAF885 /* MapController.swift in Sources */,
+				7305D9961ED7548300ADF5FD /* GlossaryTableViewController.swift in Sources */,
 				73C1BD861EC6F99E00DAF885 /* CalendarController.swift in Sources */,
 				73C1BD821EC6F45A00DAF885 /* Location.swift in Sources */,
+				7305D9981ED7556F00ADF5FD /* Glossary.swift in Sources */,
 				ABF2C14D1E78A52800685243 /* AppDelegate.swift in Sources */,
+				7305D9941ED7520300ADF5FD /* GlossaryTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
