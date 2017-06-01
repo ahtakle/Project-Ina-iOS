@@ -231,24 +231,15 @@
         <scene sceneID="h8l-zR-BtW">
             <objects>
                 <viewController id="X5o-z6-7gR" customClass="CalendarController" customModule="Ina" customModuleProvider="target" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="2La-Js-eW9"/>
-                        <viewControllerLayoutGuide type="bottom" id="x4C-IS-CQ3"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="Wp9-Qk-Nv5">
+                    <webView key="view" contentMode="scaleToFill" id="zwf-eI-yeQ">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <webView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="hmn-AS-hXv">
-                                <rect key="frame" x="0.0" y="64" width="375" height="603"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                            </webView>
-                        </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                    </view>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </webView>
+                    <nil key="simulatedTopBarMetrics"/>
+                    <nil key="simulatedBottomBarMetrics"/>
                     <connections>
-                        <outlet property="webView" destination="hmn-AS-hXv" id="eNi-0i-f5N"/>
+                        <outlet property="webView" destination="zwf-eI-yeQ" id="Iye-Ai-sdX"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="PV0-Y4-aef" userLabel="First Responder" sceneMemberID="firstResponder"/>
