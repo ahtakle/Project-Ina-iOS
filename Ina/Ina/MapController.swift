@@ -10,22 +10,69 @@ import Foundation
 
 import UIKit
 import MapKit
+import QuickLook
 
-class MapController: UIViewController {
+class MapController: UIViewController, MKMapViewDelegate, QLPreviewControllerDataSource {
 
     
     @IBOutlet weak var mapView: MKMapView!
     
+    let ql = QLPreviewController()
+    //Global var to select PDF by name
+    var name = ""
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        self.mapView.delegate = self
         // Do any additional setup after loading the view, typically from a nib.
         
         let locations = LocationList().resource
         mapView.addAnnotations(locations)
-        // set initial location in Honolulu
+        
+        //Set up the PDF Viewer when clicking
+        ql.dataSource  = self
+        
+        // set initial location in Sisseton
         let initialLocation = CLLocation(latitude: 45.6568, longitude: -97.0160)
         centerMapOnLocation(location: initialLocation)
+    }
+    
+    func mapView(_ mapView: MKMapView, annotationView view: MKAnnotationView, calloutAccessoryControlTapped control: UIControl) {
+        //Changes variable to find correct PDF
+        name = view.annotation!.title!!
+        //Refreshes which PDF Quicklook should display
+        ql.refreshCurrentPreviewItem()
+        //Pushes new Quicklook preview over glossarylist (stays in same nav controller)
+        navigationController?.pushViewController(ql, animated: true)
+        
+        
+        //Launch Apple Maps
+//        let placemark = MKPlacemark(coordinate: view.annotation!.coordinate, addressDictionary: nil)
+//        // The map item is the restaurant location
+//        let mapItem = MKMapItem(placemark: placemark)
+//        
+//        let launchOptions = [MKLaunchOptionsDirectionsModeKey:MKLaunchOptionsDirectionsModeDriving]
+//        mapItem.openInMaps(launchOptions: launchOptions)
+    }
+    
+    func mapView(_ mapView: MKMapView, viewFor annotation: MKAnnotation) -> MKAnnotationView? {
+        let identifier = "mapAnnotation"
+        
+        if annotation is Location {
+            var annotationView = mapView.dequeueReusableAnnotationView(withIdentifier: identifier)
+            
+            if annotationView == nil {
+                annotationView = MKPinAnnotationView(annotation: annotation, reuseIdentifier: identifier)
+                annotationView!.canShowCallout = true
+                let btn = UIButton(type: .detailDisclosure)
+                annotationView!.rightCalloutAccessoryView = btn
+            } else {
+                annotationView!.annotation = annotation
+            }
+            return annotationView
+        }
+        return nil
     }
     
     let regionRadius: CLLocationDistance = 1000
@@ -34,7 +81,19 @@ class MapController: UIViewController {
                                                                   regionRadius * 12.0, regionRadius * 12.0)
         mapView.setRegion(coordinateRegion, animated: true)
     }
-
     
+    
+    //QL Protocol Methods
+    func numberOfPreviewItems(in: QLPreviewController) -> Int{
+        return 1
+    }
+    
+    func previewController(_ controller: QLPreviewController, previewItemAt index: Int) -> QLPreviewItem {
+        let mainbundle = Bundle.main
+        //Picks file based on global var name which is changed in didSelectRowAt
+        let url = mainbundle.path(forResource: name, ofType: "pdf")!
+        let doc = NSURL(fileURLWithPath: url)
+        return doc
+    }
     
 }

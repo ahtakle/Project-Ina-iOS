@@ -172,7 +172,7 @@
         <scene sceneID="dna-T9-bAN">
             <objects>
                 <collectionViewController id="jEU-HY-hdr" customClass="CardCollectionViewController" customModule="Ina" customModuleProvider="target" sceneMemberID="viewController">
-                    <collectionView key="view" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" dataMode="prototypes" id="7Ag-9g-Tan">
+                    <collectionView key="view" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" id="7Ag-9g-Tan">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -196,8 +196,8 @@
                                                 <constraint firstAttribute="height" constant="125" id="oVY-1J-3PD"/>
                                             </constraints>
                                         </imageView>
-                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Hsx-VE-6O0">
-                                            <rect key="frame" x="75" y="130" width="42" height="21"/>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Hsx-VE-6O0">
+                                            <rect key="frame" x="75" y="138" width="42" height="21"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                             <nil key="textColor"/>
                                             <nil key="highlightedColor"/>
@@ -267,14 +267,16 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="LdY-Np-mT5">
-                                <rect key="frame" x="0.0" y="59" width="375" height="624"/>
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="LdY-Np-mT5">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                             </mapView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstAttribute="bottomMargin" secondItem="LdY-Np-mT5" secondAttribute="bottom" constant="-19" id="8q0-fY-kuh"/>
-                            <constraint firstItem="LdY-Np-mT5" firstAttribute="top" secondItem="aPq-4Z-YIg" secondAttribute="bottom" constant="42" id="iOw-kn-zEq"/>
+                            <constraint firstAttribute="bottomMargin" secondItem="LdY-Np-mT5" secondAttribute="bottom" id="8q0-fY-kuh"/>
+                            <constraint firstItem="LdY-Np-mT5" firstAttribute="top" secondItem="cTq-qV-NUl" secondAttribute="topMargin" id="Clo-jZ-sTa"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="LdY-Np-mT5" secondAttribute="trailing" constant="-16" id="ICB-Ei-vZ3"/>
+                            <constraint firstItem="LdY-Np-mT5" firstAttribute="leading" secondItem="cTq-qV-NUl" secondAttribute="leadingMargin" constant="-16" id="huW-h7-X4g"/>
                         </constraints>
                     </view>
                     <connections>
@@ -283,7 +285,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iui-fN-m92" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-337" y="940"/>
+            <point key="canvasLocation" x="-338.39999999999998" y="939.58020989505258"/>
         </scene>
         <!--References-->
         <scene sceneID="1IK-JU-5uO">
