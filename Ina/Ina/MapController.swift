@@ -6,8 +6,6 @@
 //  Copyright © 2017 ProjectIna. All rights reserved.
 //
 
-import Foundation
-
 import UIKit
 import MapKit
 import QuickLook

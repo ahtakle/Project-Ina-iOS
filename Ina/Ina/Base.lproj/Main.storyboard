@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12120" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="w5U-fI-QJD">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12120" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="alg-5F-kRb">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -54,7 +54,88 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="OHf-cR-9Sd" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1182" y="-563"/>
+            <point key="canvasLocation" x="1207" y="-457"/>
+        </scene>
+        <!--Date Picker Controller-->
+        <scene sceneID="Qy8-sd-Kyz">
+            <objects>
+                <viewController id="zLq-yo-upy" customClass="DatePickerController" customModule="Ina" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y1c-if-BNm"/>
+                        <viewControllerLayoutGuide type="bottom" id="kqm-PQ-bAj"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="mQX-6h-bOR">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <datePicker contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="date" minuteInterval="1" translatesAutoresizingMaskIntoConstraints="NO" id="alk-BU-Ib1">
+                                <rect key="frame" x="0.0" y="250" width="375" height="216"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <date key="date" timeIntervalSinceReferenceDate="518486891.44743103">
+                                    <!--2017-06-07 00:08:11 +0000-->
+                                </date>
+                            </datePicker>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Pick A Due Date/ Birthday" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="x1e-g1-EIY">
+                                <rect key="frame" x="44" y="69" width="286" height="51"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="2ia-k7-yTl">
+                                <rect key="frame" x="44" y="178" width="286" height="29"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <segments>
+                                    <segment title="Due Date"/>
+                                    <segment title="Birthday"/>
+                                    <segment title="Answer Later"/>
+                                </segments>
+                            </segmentedControl>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YHU-Cz-CBd">
+                                <rect key="frame" x="119" y="534" width="136" height="48"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <state key="normal" title="Submit"/>
+                                <connections>
+                                    <action selector="submit:" destination="zLq-yo-upy" eventType="touchUpInside" id="FAB-9N-Ktq"/>
+                                    <segue destination="w5U-fI-QJD" kind="show" identifier="HomeSegue" id="QAS-MP-lVR"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <nil key="simulatedTopBarMetrics"/>
+                    <nil key="simulatedBottomBarMetrics"/>
+                    <connections>
+                        <outlet property="datePicker" destination="alk-BU-Ib1" id="4Sq-Al-X8k"/>
+                        <outlet property="optionSelector" destination="2ia-k7-yTl" id="KGM-9G-sZk"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="D9C-0T-v1f" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-810" y="-1367"/>
+        </scene>
+        <!--Splash Screen Controller-->
+        <scene sceneID="KYF-YN-uqp">
+            <objects>
+                <viewController id="alg-5F-kRb" customClass="SplashScreenController" customModule="Ina" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="zAj-J7-GcV"/>
+                        <viewControllerLayoutGuide type="bottom" id="PHm-14-lzN"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="RAe-xO-ULL">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <connections>
+                        <segue destination="w5U-fI-QJD" kind="show" identifier="HomeSegue" id="0i7-S2-Z6Z"/>
+                        <segue destination="zLq-yo-upy" kind="show" identifier="DatePickerSegue" id="2LW-i5-fja"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="zM0-s8-lfE" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="188" y="-1839"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="Z7v-sd-GYc">
@@ -72,10 +153,10 @@
             </objects>
             <point key="canvasLocation" x="188" y="-925"/>
         </scene>
-        <!--View Controller-->
+        <!--Baby Progress-->
         <scene sceneID="UT2-bG-zaa">
             <objects>
-                <viewController id="T62-BU-qXV" sceneMemberID="viewController">
+                <viewController id="T62-BU-qXV" customClass="BabyProgress" customModule="Ina" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="hHx-n9-Wj1"/>
                         <viewControllerLayoutGuide type="bottom" id="eNO-8c-cYd"/>
@@ -83,12 +164,29 @@
                     <view key="view" contentMode="scaleToFill" id="Y1E-UA-Cxg">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4l0-GE-mRD">
+                                <rect key="frame" x="143" y="128" width="88" height="43"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" fixedFrame="YES" progress="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="ton-0c-HDk">
+                                <rect key="frame" x="112" y="266" width="150" height="2"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </progressView>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
+                    <connections>
+                        <outlet property="dateLabel" destination="4l0-GE-mRD" id="hMh-ho-SZb"/>
+                        <outlet property="progressBar" destination="ton-0c-HDk" id="4wI-CW-WPL"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="qIr-b1-VxG" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-809" y="-457"/>
+            <point key="canvasLocation" x="-810.39999999999998" y="-457.42128935532236"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
@@ -287,4 +385,7 @@
             <point key="canvasLocation" x="1207" y="181"/>
         </scene>
     </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="0i7-S2-Z6Z"/>
+    </inferredMetricsTieBreakers>
 </document>
