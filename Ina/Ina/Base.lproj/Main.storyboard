@@ -204,7 +204,38 @@
                                     <segment title="Trimester 2"/>
                                     <segment title="Trimester 3"/>
                                 </segments>
+                                <connections>
+                                    <action selector="checklistControl:" destination="T62-BU-qXV" eventType="valueChanged" id="8ro-RT-AGF"/>
+                                </connections>
                             </segmentedControl>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="rdf-ad-jxm">
+                                <rect key="frame" x="16" y="549" width="343" height="351"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="ChecklistTableViewCell" id="7xf-Jb-edC" customClass="ChecklistTableViewCell" customModule="Ina" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="28" width="343" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="7xf-Jb-edC" id="RVx-TI-lJM">
+                                            <rect key="frame" x="0.0" y="0.0" width="343" height="43.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Text" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7ph-fj-0gJ">
+                                                    <rect key="frame" x="56" y="11" width="33" height="21"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="checkTextLabel" destination="7ph-fj-0gJ" id="VtN-Wz-Vwr"/>
+                                            <outlet property="textLabel" destination="7ph-fj-0gJ" id="tJM-9d-aN1"/>
+                                        </connections>
+                                    </tableViewCell>
+                                </prototypes>
+                            </tableView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
@@ -212,9 +243,11 @@
                     <size key="freeformSize" width="375" height="900"/>
                     <connections>
                         <outlet property="babyImage" destination="red-ff-4p6" id="14p-6U-jpx"/>
+                        <outlet property="checklistControl" destination="Jx3-sa-IAG" id="HZ2-c9-nEY"/>
                         <outlet property="dday_bday_Label" destination="ryG-6q-Hi0" id="Qxj-U9-rnq"/>
                         <outlet property="informationTextView" destination="HyI-Q2-KIl" id="PFb-Pz-z3U"/>
                         <outlet property="progressBar" destination="ton-0c-HDk" id="4wI-CW-WPL"/>
+                        <outlet property="tableView" destination="rdf-ad-jxm" id="Rh9-nz-EXk"/>
                         <outlet property="week_month_Label" destination="4l0-GE-mRD" id="cX3-fz-Yas"/>
                     </connections>
                 </viewController>

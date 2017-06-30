@@ -14,6 +14,7 @@
 		730837571EE77DC200150A29 /* DatePickerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 730837561EE77DC200150A29 /* DatePickerController.swift */; };
 		730837591EE78A9A00150A29 /* BabyProgress.swift in Sources */ = {isa = PBXBuildFile; fileRef = 730837581EE78A9A00150A29 /* BabyProgress.swift */; };
 		7308375B1EE7988900150A29 /* SplashScreenController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7308375A1EE7988900150A29 /* SplashScreenController.swift */; };
+		739600721F05E2260067ABAF /* ChecklistTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 739600711F05E2260067ABAF /* ChecklistTableViewCell.swift */; };
 		739E6A391EDB2E630094FF3C /* CardTerm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 739E6A381EDB2E630094FF3C /* CardTerm.swift */; };
 		739E6A3B1EDB32F20094FF3C /* CardCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 739E6A3A1EDB32F20094FF3C /* CardCollectionViewController.swift */; };
 		739E6A3D1EDB33090094FF3C /* CardCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 739E6A3C1EDB33090094FF3C /* CardCollectionViewCell.swift */; };
@@ -38,6 +39,7 @@
 		730837561EE77DC200150A29 /* DatePickerController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DatePickerController.swift; sourceTree = "<group>"; };
 		730837581EE78A9A00150A29 /* BabyProgress.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BabyProgress.swift; sourceTree = "<group>"; };
 		7308375A1EE7988900150A29 /* SplashScreenController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SplashScreenController.swift; sourceTree = "<group>"; };
+		739600711F05E2260067ABAF /* ChecklistTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChecklistTableViewCell.swift; sourceTree = "<group>"; };
 		739E6A381EDB2E630094FF3C /* CardTerm.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardTerm.swift; sourceTree = "<group>"; };
 		739E6A3A1EDB32F20094FF3C /* CardCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardCollectionViewController.swift; sourceTree = "<group>"; };
 		739E6A3C1EDB33090094FF3C /* CardCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardCollectionViewCell.swift; sourceTree = "<group>"; };
@@ -108,6 +110,7 @@
 				739E6A3C1EDB33090094FF3C /* CardCollectionViewCell.swift */,
 				739E6A431EDD12140094FF3C /* ResourceCollectionViewController.swift */,
 				739E6A451EDD12280094FF3C /* ResourceCollectionViewCell.swift */,
+				739600711F05E2260067ABAF /* ChecklistTableViewCell.swift */,
 			);
 			path = Ina;
 			sourceTree = "<group>";
@@ -187,6 +190,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				739600721F05E2260067ABAF /* ChecklistTableViewCell.swift in Sources */,
 				739E6A461EDD12280094FF3C /* ResourceCollectionViewCell.swift in Sources */,
 				ABF2C14F1E78A52800685243 /* ViewController.swift in Sources */,
 				73C1BD801EC6E96000DAF885 /* MapController.swift in Sources */,
