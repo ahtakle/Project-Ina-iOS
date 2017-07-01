@@ -65,7 +65,7 @@
                         <viewControllerLayoutGuide type="bottom" id="kqm-PQ-bAj"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="mQX-6h-bOR">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="900"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <datePicker contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="date" minuteInterval="1" translatesAutoresizingMaskIntoConstraints="NO" id="alk-BU-Ib1">
@@ -131,6 +131,7 @@
                     <connections>
                         <segue destination="w5U-fI-QJD" kind="show" identifier="HomeSegue" id="0i7-S2-Z6Z"/>
                         <segue destination="zLq-yo-upy" kind="show" identifier="DatePickerSegue" id="2LW-i5-fja"/>
+                        <segue destination="AAO-hz-Rwe" kind="show" identifier="TutorialSegue" id="YiS-ej-uh6"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="zM0-s8-lfE" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -152,6 +153,14 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="FjO-N1-866" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="188" y="-925"/>
+        </scene>
+        <!--Tutorial Controller-->
+        <scene sceneID="ECk-sh-kPO">
+            <objects>
+                <pageViewController storyboardIdentifier="TutorialController" autoresizesArchivedViewToFullSize="NO" transitionStyle="scroll" navigationOrientation="horizontal" spineLocation="none" id="AAO-hz-Rwe" customClass="TutorialController" customModule="Ina" customModuleProvider="target" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Tyw-cw-772" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1170" y="-1285"/>
         </scene>
         <!--Baby Progress-->
         <scene sceneID="UT2-bG-zaa">
@@ -236,6 +245,14 @@
                                     </tableViewCell>
                                 </prototypes>
                             </tableView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bTP-kF-Vdv">
+                                <rect key="frame" x="142" y="234" width="90" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Change Date"/>
+                                <connections>
+                                    <segue destination="zLq-yo-upy" kind="show" id="mrc-mR-2QJ"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
@@ -264,7 +281,7 @@
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="900"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BXv-g0-Z1o">
@@ -454,5 +471,6 @@
     </scenes>
     <inferredMetricsTieBreakers>
         <segue reference="QAS-MP-lVR"/>
+        <segue reference="mrc-mR-2QJ"/>
     </inferredMetricsTieBreakers>
 </document>

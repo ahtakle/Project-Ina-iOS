@@ -16,10 +16,15 @@ class SplashScreenController: UIViewController {
     override func viewDidAppear(_ animated: Bool) {
         let preferences = UserDefaults.standard
         
+        let tutorialKey = "Tutorial"
         let dueDateKey = "DueDate"
         let birthdayKey = "Birthday"
 
-        if (preferences.object(forKey: dueDateKey) == nil && preferences.object(forKey: birthdayKey) == nil) {
+        if (preferences.object(forKey: tutorialKey) == nil) {
+            //First time user
+            _ = preferences.set("Complete", forKey: tutorialKey)
+            performSegue(withIdentifier: "TutorialSegue", sender: self)
+        } else if (preferences.object(forKey: dueDateKey) == nil && preferences.object(forKey: birthdayKey) == nil)  {
             //  Doesn't exist
             performSegue(withIdentifier: "DatePickerSegue", sender: self)
         } else {
@@ -33,6 +38,9 @@ class SplashScreenController: UIViewController {
         }
         if segue.identifier == "DatePickerSegue" {
             _ = segue.destination as? DatePickerController
+        }
+        if segue.identifier == "TutorialSegue" {
+        _ = segue.destination as? TutorialController
         }
     }
     
