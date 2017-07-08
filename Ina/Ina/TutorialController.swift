@@ -23,6 +23,7 @@ class TutorialController: UIPageViewController, UIPageViewControllerDelegate, UI
             direction: .forward,
             animated: true,
             completion: nil)
+        
     }
     
     func pageViewController(_ pageViewController: UIPageViewController,
@@ -61,87 +62,6 @@ class TutorialController: UIPageViewController, UIPageViewControllerDelegate, UI
         }
         return 0
     }
-//    var arrPageTitle: NSArray = NSArray()
-//    var arrPagePhoto: NSArray = NSArray()
-//    var pageControl = UIPageControl()
-//    
-//    override func viewDidLoad() {
-//        super.viewDidLoad()
-//        //Other view stuff
-//        arrPageTitle = ["This is The App Guruz", "This is Table Tennis 3D", "This is Hide Secrets"];
-//        arrPagePhoto = ["week_1.jpg", "week_2.jpg", "week_3.jpg"];
-//        self.dataSource = self
-//        self.setViewControllers([getViewControllerAtIndex(index: 0)] as [UIViewController], direction: UIPageViewControllerNavigationDirection.forward, animated: false, completion: nil)
-//        
-//        //configurePageControl()
-//    }
-//    
-//    func pageViewController(_ pageViewController: UIPageViewController, viewControllerBefore viewController: UIViewController) -> UIViewController?
-//    {
-//        let pageContent: TutorialContentViewController = viewController as! TutorialContentViewController
-//        var index = pageContent.pageIndex
-//        if ((index == 0) || (index == NSNotFound))
-//        {
-//            return nil
-//        }
-//        index -= 1;
-//        return getViewControllerAtIndex(index: index)
-//    }
-//    
-//    func pageViewController(_ pageViewController: UIPageViewController, viewControllerAfter viewController: UIViewController) -> UIViewController?
-//    {
-//        let pageContent: TutorialContentViewController = viewController as! TutorialContentViewController
-//        var index = pageContent.pageIndex
-//        if (index == NSNotFound)
-//        {
-//            return nil;
-//        }
-//        index += 1;
-//        if (index == arrPageTitle.count)
-//        {
-//            return nil;
-//        }
-//        return getViewControllerAtIndex(index: index)
-//    }
-//    
-//    func getViewControllerAtIndex(index: NSInteger) -> TutorialContentViewController
-//    {
-//        // Create a new view controller and pass suitable data.
-//        let pageContentViewController = self.storyboard?.instantiateViewController(withIdentifier: "TutorialContentViewController") as! TutorialContentViewController
-//        pageContentViewController.strDescription = "\(arrPageTitle[index])"
-//        pageContentViewController.strImageName = "\(arrPagePhoto[index])"
-//        pageContentViewController.pageIndex = index
-//        return pageContentViewController
-//    }
-    
-//    override func viewDidLayoutSubviews() {
-//        super.viewDidLayoutSubviews()
-//        for view in view.subviews {
-//            if view is UIScrollView {
-//                view.frame = UIScreen.main.bounds // Why? I don't know.
-//            }
-//            else if view is UIPageControl {
-//                view.backgroundColor = UIColor.clear
-//            }
-//        }
-//    }
-    
-//    func configurePageControl() {
-//        // The total number of pages that are available is based on how many available colors we have.
-//        pageControl = UIPageControl(frame: CGRect(x: 0,y: UIScreen.main.bounds.maxY - 50,width: UIScreen.main.bounds.width,height: 50))
-//        self.pageControl.numberOfPages = arrPageTitle.count
-//        self.pageControl.currentPage = 0
-//        self.pageControl.tintColor = UIColor.black
-//        self.pageControl.pageIndicatorTintColor = UIColor.white
-//        self.pageControl.currentPageIndicatorTintColor = UIColor.black
-//        self.view.addSubview(pageControl)
-//    }
-//    
-//    // MARK: Delegate functions
-//    func pageViewController(_ pageViewController: UIPageViewController, didFinishAnimating finished: Bool, previousViewControllers: [UIViewController], transitionCompleted completed: Bool) {
-//        let pageContentViewController = pageViewController.viewControllers![0]
-//        self.pageControl.currentPage = pageViewController.index(ofAccessibilityElement: pageContentViewController)
-//    }
     
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()

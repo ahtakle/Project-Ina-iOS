@@ -11,7 +11,14 @@ import UIKit
 class DatePickerController: UIViewController {
     
     @IBOutlet weak var optionSelector: UISegmentedControl!
-   
+    @IBAction func optionSelector(_ sender: UISegmentedControl) {
+        //Logic to hide choosing a date if option for "later" is selected
+        if (optionSelector.selectedSegmentIndex == 2) {
+            self.datePicker.isHidden = true
+        } else {
+            self.datePicker.isHidden = false
+        }
+    }
     
     @IBOutlet weak var datePicker: UIDatePicker!
     
@@ -37,6 +44,12 @@ class DatePickerController: UIViewController {
             
             //  Save to disk
             preferences.synchronize()
+        } else {
+            _ = preferences.set("", forKey: dueDateKey)
+            _ = preferences.set("", forKey: birthdayKey)
+            
+            //  Save to disk
+            preferences.synchronize()
         }
         
         performSegue(withIdentifier: "HomeSegue", sender: sender)
@@ -52,6 +65,8 @@ class DatePickerController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         //Other view stuff
+        datePicker.setValue(UIColor.white, forKeyPath: "textColor")
+        datePicker.setValue(false, forKeyPath: "highlightsToday")
     }
     
     override func didReceiveMemoryWarning() {

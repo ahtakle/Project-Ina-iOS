@@ -19,7 +19,6 @@ class MapController: UIViewController, MKMapViewDelegate, QLPreviewControllerDat
     //Global var to select PDF by name
     var name = ""
     
-    
     override func viewDidLoad() {
         super.viewDidLoad()
         self.mapView.delegate = self
@@ -43,15 +42,6 @@ class MapController: UIViewController, MKMapViewDelegate, QLPreviewControllerDat
         ql.refreshCurrentPreviewItem()
         //Pushes new Quicklook preview over glossarylist (stays in same nav controller)
         navigationController?.pushViewController(ql, animated: true)
-        
-        
-        //Launch Apple Maps
-//        let placemark = MKPlacemark(coordinate: view.annotation!.coordinate, addressDictionary: nil)
-//        // The map item is the restaurant location
-//        let mapItem = MKMapItem(placemark: placemark)
-//        
-//        let launchOptions = [MKLaunchOptionsDirectionsModeKey:MKLaunchOptionsDirectionsModeDriving]
-//        mapItem.openInMaps(launchOptions: launchOptions)
     }
     
     func mapView(_ mapView: MKMapView, viewFor annotation: MKAnnotation) -> MKAnnotationView? {
@@ -76,7 +66,7 @@ class MapController: UIViewController, MKMapViewDelegate, QLPreviewControllerDat
     let regionRadius: CLLocationDistance = 1000
     func centerMapOnLocation(location: CLLocation) {
         let coordinateRegion = MKCoordinateRegionMakeWithDistance(location.coordinate,
-                                                                  regionRadius * 12.0, regionRadius * 12.0)
+                                                                  regionRadius * 40.0, regionRadius * 40.0)
         mapView.setRegion(coordinateRegion, animated: true)
     }
     
