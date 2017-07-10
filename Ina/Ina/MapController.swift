@@ -14,6 +14,17 @@ class MapController: UIViewController, MKMapViewDelegate, QLPreviewControllerDat
 
     
     @IBOutlet weak var mapView: MKMapView!
+    @IBOutlet weak var mapTypeControl: UISegmentedControl!
+    @IBAction func mapTypeControl(_ sender: UISegmentedControl) {
+        switch mapTypeControl.selectedSegmentIndex {
+        case 0:
+            self.mapView.mapType = MKMapType.standard
+        case 1:
+            self.mapView.mapType = MKMapType.satellite
+        default:
+            self.mapView.mapType = MKMapType.standard
+        }
+    }
     
     let ql = QLPreviewController()
     //Global var to select PDF by name
@@ -68,6 +79,8 @@ class MapController: UIViewController, MKMapViewDelegate, QLPreviewControllerDat
         let coordinateRegion = MKCoordinateRegionMakeWithDistance(location.coordinate,
                                                                   regionRadius * 40.0, regionRadius * 40.0)
         mapView.setRegion(coordinateRegion, animated: true)
+        
+        self.mapView.mapType = MKMapType.standard
     }
     
     

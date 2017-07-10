@@ -21,6 +21,7 @@ class GlossaryTableViewController: UITableViewController, QLPreviewControllerDat
         
         // Load the sample data.
         loadGlossaryData()
+
         
         //Set up the PDF Viewer when clicking
         ql.dataSource  = self
@@ -51,8 +52,21 @@ class GlossaryTableViewController: UITableViewController, QLPreviewControllerDat
         // Fetches the appropriate term for the data source layout.
         let glossary = glossarylist[indexPath.row]
         cell?.termLabel.text = glossary.title
+        cell?.termLabel.numberOfLines=0
+        cell?.termLabel.lineBreakMode = NSLineBreakMode.byWordWrapping
+        cell?.diamondImage.image = UIImage(named: "arrowhead")
+        cell?.diamondImage.frame.size.width = 40
+        cell?.diamondImage.frame.size.height = 40
         
         return cell!
+    }
+    
+    //Set the height of each cell
+    override func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
+        return UITableViewAutomaticDimension
+    }
+    override func tableView(_ tableView: UITableView, estimatedHeightForRowAt indexPath: IndexPath) -> CGFloat {
+        return UITableViewAutomaticDimension
     }
  
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
@@ -79,7 +93,7 @@ class GlossaryTableViewController: UITableViewController, QLPreviewControllerDat
 
     //Loads Glossary Data (Name should match PDF)
     private func loadGlossaryData() {
-        let term1 = Glossary(title: "test2")
+        let term1 = Glossary(title: "I am gonna write something really long and see what happens. There is no way a title would be this long right?")
         glossarylist.append(term1)
         let term2 = Glossary(title: "test1")
         glossarylist.append(term2)

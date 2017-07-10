@@ -12,13 +12,13 @@ import MapKit
 class Location: NSObject, MKAnnotation{
     
     var title: String?
-    var snippet: String?
+    var subtitle: String?
     //var navImage: UIImage?
     var coordinate: CLLocationCoordinate2D
     
     init(name:String, address:String, lat:CLLocationDegrees,long:CLLocationDegrees){
         title = name
-        snippet = address
+        subtitle = address
         coordinate = CLLocationCoordinate2DMake(lat, long)
         //self.navImage = UIImage(named: "coteau")!
     }
