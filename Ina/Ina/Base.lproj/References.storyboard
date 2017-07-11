@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12120" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="xMF-Xr-Htw">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="xMF-Xr-Htw">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -30,11 +30,11 @@
             </objects>
             <point key="canvasLocation" x="1207" y="181"/>
         </scene>
-        <!--Item-->
+        <!--Pregnancy-->
         <scene sceneID="HOT-pR-NuO">
             <objects>
                 <collectionViewController restorationIdentifier="RESOURCES_PREGNANCY" storyboardIdentifier="RESOURCES_PREGNANCY" id="sfu-4V-utL" customClass="ResourceCollectionViewController" customModule="Ina" customModuleProvider="target" sceneMemberID="viewController">
-                    <collectionView key="view" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" id="brU-gH-1lB">
+                    <collectionView key="view" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" dataMode="prototypes" id="brU-gH-1lB">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -76,17 +76,17 @@
                             <outlet property="delegate" destination="sfu-4V-utL" id="Hc8-am-Byo"/>
                         </connections>
                     </collectionView>
-                    <tabBarItem key="tabBarItem" title="Item" id="lsc-eb-6vp"/>
+                    <tabBarItem key="tabBarItem" title="Pregnancy" image="pregnancy_grey" selectedImage="pregnancy_color" id="lsc-eb-6vp"/>
                 </collectionViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="jkI-Xy-kEM" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1108" y="1080.8095952023989"/>
         </scene>
-        <!--Item-->
+        <!--After Birth-->
         <scene sceneID="ffx-4G-dWF">
             <objects>
                 <collectionViewController restorationIdentifier="RESOURCES_AFTERBIRTH" storyboardIdentifier="RESOURCES_AFTERBIRTH" id="zRE-7a-fak" customClass="ResourceCollectionViewController" customModule="Ina" customModuleProvider="target" sceneMemberID="viewController">
-                    <collectionView key="view" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" id="tZn-2g-zZJ">
+                    <collectionView key="view" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" dataMode="prototypes" id="tZn-2g-zZJ">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -128,17 +128,17 @@
                             <outlet property="delegate" destination="zRE-7a-fak" id="02e-f5-NeW"/>
                         </connections>
                     </collectionView>
-                    <tabBarItem key="tabBarItem" title="Item" id="kdX-wL-gal"/>
+                    <tabBarItem key="tabBarItem" title="After Birth" image="afterbirth_grey" selectedImage="afterbirth_color" id="kdX-wL-gal"/>
                 </collectionViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="tHK-IE-FYt" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1840.8" y="1080.8095952023989"/>
         </scene>
-        <!--Item-->
+        <!--Young Child-->
         <scene sceneID="2Sp-Bp-L5j">
             <objects>
                 <collectionViewController restorationIdentifier="RESOURCES_YOUNGCHILD" storyboardIdentifier="RESOURCES_YOUNGCHILD" id="gSH-kU-4C6" customClass="ResourceCollectionViewController" customModule="Ina" customModuleProvider="target" sceneMemberID="viewController">
-                    <collectionView key="view" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" id="BR6-TW-VmF">
+                    <collectionView key="view" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" dataMode="prototypes" id="BR6-TW-VmF">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -180,17 +180,17 @@
                             <outlet property="delegate" destination="gSH-kU-4C6" id="rpg-tl-ffc"/>
                         </connections>
                     </collectionView>
-                    <tabBarItem key="tabBarItem" title="Item" id="FWb-ut-sLp"/>
+                    <tabBarItem key="tabBarItem" title="Young Child" image="youngchild_grey" selectedImage="youngchild_color" id="FWb-ut-sLp"/>
                 </collectionViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="3ZS-NA-Ogl" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2600.8000000000002" y="1080.8095952023989"/>
         </scene>
-        <!--Item-->
+        <!--Finances-->
         <scene sceneID="fWz-Wm-ZHp">
             <objects>
                 <collectionViewController restorationIdentifier="RESOURCES_MONEY" storyboardIdentifier="RESOURCES_MONEY" id="cdB-a0-XjF" customClass="ResourceCollectionViewController" customModule="Ina" customModuleProvider="target" sceneMemberID="viewController">
-                    <collectionView key="view" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" id="NwJ-99-jeA">
+                    <collectionView key="view" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" dataMode="prototypes" id="NwJ-99-jeA">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -232,17 +232,17 @@
                             <outlet property="delegate" destination="cdB-a0-XjF" id="rNd-eb-MrP"/>
                         </connections>
                     </collectionView>
-                    <tabBarItem key="tabBarItem" title="Item" id="gpy-xf-7if"/>
+                    <tabBarItem key="tabBarItem" title="Finances" image="finance_grey" selectedImage="finance_color" id="gpy-xf-7if"/>
                 </collectionViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="GVM-fu-az5" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="3317.5999999999999" y="1080.8095952023989"/>
         </scene>
-        <!--Item-->
+        <!--All-->
         <scene sceneID="r5A-7N-tpV">
             <objects>
                 <collectionViewController restorationIdentifier="RESOURCES_ALL" storyboardIdentifier="RESOURCES_ALL" id="LWB-Hj-bOG" customClass="ResourceCollectionViewController" customModule="Ina" customModuleProvider="target" sceneMemberID="viewController">
-                    <collectionView key="view" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" id="0In-ga-PF1">
+                    <collectionView key="view" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" dataMode="prototypes" id="0In-ga-PF1">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -284,11 +284,23 @@
                             <outlet property="delegate" destination="LWB-Hj-bOG" id="V22-Fg-70Q"/>
                         </connections>
                     </collectionView>
-                    <tabBarItem key="tabBarItem" title="Item" id="bq2-UG-pW4"/>
+                    <tabBarItem key="tabBarItem" title="All" image="all_grey" selectedImage="all_color" id="bq2-UG-pW4"/>
                 </collectionViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="S3L-qv-hKO" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2149.5999999999999" y="-225.33733133433284"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="afterbirth_color" width="16" height="16"/>
+        <image name="afterbirth_grey" width="16" height="16"/>
+        <image name="all_color" width="16" height="16"/>
+        <image name="all_grey" width="16" height="16"/>
+        <image name="finance_color" width="16" height="16"/>
+        <image name="finance_grey" width="16" height="16"/>
+        <image name="pregnancy_color" width="16" height="16"/>
+        <image name="pregnancy_grey" width="100" height="100"/>
+        <image name="youngchild_color" width="16" height="16"/>
+        <image name="youngchild_grey" width="25" height="25"/>
+    </resources>
 </document>
