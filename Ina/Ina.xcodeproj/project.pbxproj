@@ -38,7 +38,7 @@
 		7305D9931ED7520300ADF5FD /* GlossaryTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GlossaryTableViewCell.swift; sourceTree = "<group>"; };
 		7305D9951ED7548300ADF5FD /* GlossaryTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GlossaryTableViewController.swift; sourceTree = "<group>"; };
 		7305D9971ED7556F00ADF5FD /* Glossary.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Glossary.swift; sourceTree = "<group>"; };
-		7305D99B1ED78EBE00ADF5FD /* test1.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = test1.pdf; path = ../../../../../Downloads/test1.pdf; sourceTree = "<group>"; };
+		7305D99B1ED78EBE00ADF5FD /* test1.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = test1.pdf; path = ../../../../Downloads/test1.pdf; sourceTree = "<group>"; };
 		730837561EE77DC200150A29 /* DatePickerController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DatePickerController.swift; sourceTree = "<group>"; };
 		730837581EE78A9A00150A29 /* BabyProgress.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BabyProgress.swift; sourceTree = "<group>"; };
 		7308375A1EE7988900150A29 /* SplashScreenController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SplashScreenController.swift; sourceTree = "<group>"; };
