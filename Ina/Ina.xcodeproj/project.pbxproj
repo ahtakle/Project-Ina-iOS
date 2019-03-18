@@ -7,10 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4B8A57FD223F4F7300C66429 /* MCH.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 4B8A57EC223F4F7100C66429 /* MCH.pdf */; };
+		4B8A57FE223F4F7300C66429 /* Little Steps Daycare.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 4B8A57ED223F4F7100C66429 /* Little Steps Daycare.pdf */; };
+		4B8A57FF223F4F7300C66429 /* Social Services.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 4B8A57EE223F4F7100C66429 /* Social Services.pdf */; };
+		4B8A5800223F4F7300C66429 /* Sisseton Dental.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 4B8A57EF223F4F7100C66429 /* Sisseton Dental.pdf */; };
+		4B8A5801223F4F7300C66429 /* GPTCHB.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 4B8A57F0223F4F7100C66429 /* GPTCHB.pdf */; };
+		4B8A5802223F4F7300C66429 /* IHS.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 4B8A57F1223F4F7100C66429 /* IHS.pdf */; };
+		4B8A5803223F4F7300C66429 /* WIC.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 4B8A57F2223F4F7100C66429 /* WIC.pdf */; };
+		4B8A5804223F4F7300C66429 /* SWO MCH.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 4B8A57F3223F4F7100C66429 /* SWO MCH.pdf */; };
+		4B8A5805223F4F7300C66429 /* SWO Education.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 4B8A57F4223F4F7200C66429 /* SWO Education.pdf */; };
+		4B8A5806223F4F7300C66429 /* Coteau.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 4B8A57F5223F4F7200C66429 /* Coteau.pdf */; };
+		4B8A5807223F4F7300C66429 /* SWO Health Education.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 4B8A57F6223F4F7200C66429 /* SWO Health Education.pdf */; };
+		4B8A5808223F4F7300C66429 /* Sisseton Nurse.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 4B8A57F7223F4F7200C66429 /* Sisseton Nurse.pdf */; };
+		4B8A5809223F4F7300C66429 /* Medicaid Eligibility.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 4B8A57F8223F4F7200C66429 /* Medicaid Eligibility.pdf */; };
+		4B8A580A223F4F7300C66429 /* Roberts County.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 4B8A57F9223F4F7200C66429 /* Roberts County.pdf */; };
+		4B8A580B223F4F7300C66429 /* SWO Food.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 4B8A57FA223F4F7200C66429 /* SWO Food.pdf */; };
+		4B8A580C223F4F7300C66429 /* SWO Health Rep.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 4B8A57FB223F4F7200C66429 /* SWO Health Rep.pdf */; };
+		4B8A580D223F4F7300C66429 /* SWO Pride.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 4B8A57FC223F4F7200C66429 /* SWO Pride.pdf */; };
 		7305D9941ED7520300ADF5FD /* GlossaryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7305D9931ED7520300ADF5FD /* GlossaryTableViewCell.swift */; };
 		7305D9961ED7548300ADF5FD /* GlossaryTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7305D9951ED7548300ADF5FD /* GlossaryTableViewController.swift */; };
 		7305D9981ED7556F00ADF5FD /* Glossary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7305D9971ED7556F00ADF5FD /* Glossary.swift */; };
-		7305D99C1ED78EBE00ADF5FD /* test1.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 7305D99B1ED78EBE00ADF5FD /* test1.pdf */; };
 		730837571EE77DC200150A29 /* DatePickerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 730837561EE77DC200150A29 /* DatePickerController.swift */; };
 		730837591EE78A9A00150A29 /* BabyProgress.swift in Sources */ = {isa = PBXBuildFile; fileRef = 730837581EE78A9A00150A29 /* BabyProgress.swift */; };
 		7308375B1EE7988900150A29 /* SplashScreenController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7308375A1EE7988900150A29 /* SplashScreenController.swift */; };
@@ -35,10 +51,26 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4B8A57EC223F4F7100C66429 /* MCH.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = MCH.pdf; path = Assets.xcassets/pdf_assets/MCH.pdf; sourceTree = "<group>"; };
+		4B8A57ED223F4F7100C66429 /* Little Steps Daycare.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = "Little Steps Daycare.pdf"; path = "Assets.xcassets/pdf_assets/Little Steps Daycare.pdf"; sourceTree = "<group>"; };
+		4B8A57EE223F4F7100C66429 /* Social Services.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = "Social Services.pdf"; path = "Assets.xcassets/pdf_assets/Social Services.pdf"; sourceTree = "<group>"; };
+		4B8A57EF223F4F7100C66429 /* Sisseton Dental.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = "Sisseton Dental.pdf"; path = "Assets.xcassets/pdf_assets/Sisseton Dental.pdf"; sourceTree = "<group>"; };
+		4B8A57F0223F4F7100C66429 /* GPTCHB.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = GPTCHB.pdf; path = Assets.xcassets/pdf_assets/GPTCHB.pdf; sourceTree = "<group>"; };
+		4B8A57F1223F4F7100C66429 /* IHS.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = IHS.pdf; path = Assets.xcassets/pdf_assets/IHS.pdf; sourceTree = "<group>"; };
+		4B8A57F2223F4F7100C66429 /* WIC.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = WIC.pdf; path = Assets.xcassets/pdf_assets/WIC.pdf; sourceTree = "<group>"; };
+		4B8A57F3223F4F7100C66429 /* SWO MCH.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = "SWO MCH.pdf"; path = "Assets.xcassets/pdf_assets/SWO MCH.pdf"; sourceTree = "<group>"; };
+		4B8A57F4223F4F7200C66429 /* SWO Education.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = "SWO Education.pdf"; path = "Assets.xcassets/pdf_assets/SWO Education.pdf"; sourceTree = "<group>"; };
+		4B8A57F5223F4F7200C66429 /* Coteau.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = Coteau.pdf; path = Assets.xcassets/pdf_assets/Coteau.pdf; sourceTree = "<group>"; };
+		4B8A57F6223F4F7200C66429 /* SWO Health Education.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = "SWO Health Education.pdf"; path = "Assets.xcassets/pdf_assets/SWO Health Education.pdf"; sourceTree = "<group>"; };
+		4B8A57F7223F4F7200C66429 /* Sisseton Nurse.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = "Sisseton Nurse.pdf"; path = "Assets.xcassets/pdf_assets/Sisseton Nurse.pdf"; sourceTree = "<group>"; };
+		4B8A57F8223F4F7200C66429 /* Medicaid Eligibility.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = "Medicaid Eligibility.pdf"; path = "Assets.xcassets/pdf_assets/Medicaid Eligibility.pdf"; sourceTree = "<group>"; };
+		4B8A57F9223F4F7200C66429 /* Roberts County.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = "Roberts County.pdf"; path = "Assets.xcassets/pdf_assets/Roberts County.pdf"; sourceTree = "<group>"; };
+		4B8A57FA223F4F7200C66429 /* SWO Food.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = "SWO Food.pdf"; path = "Assets.xcassets/pdf_assets/SWO Food.pdf"; sourceTree = "<group>"; };
+		4B8A57FB223F4F7200C66429 /* SWO Health Rep.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = "SWO Health Rep.pdf"; path = "Assets.xcassets/pdf_assets/SWO Health Rep.pdf"; sourceTree = "<group>"; };
+		4B8A57FC223F4F7200C66429 /* SWO Pride.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = "SWO Pride.pdf"; path = "Assets.xcassets/pdf_assets/SWO Pride.pdf"; sourceTree = "<group>"; };
 		7305D9931ED7520300ADF5FD /* GlossaryTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GlossaryTableViewCell.swift; sourceTree = "<group>"; };
 		7305D9951ED7548300ADF5FD /* GlossaryTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GlossaryTableViewController.swift; sourceTree = "<group>"; };
 		7305D9971ED7556F00ADF5FD /* Glossary.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Glossary.swift; sourceTree = "<group>"; };
-		7305D99B1ED78EBE00ADF5FD /* test1.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = test1.pdf; path = ../../../../Downloads/test1.pdf; sourceTree = "<group>"; };
 		730837561EE77DC200150A29 /* DatePickerController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DatePickerController.swift; sourceTree = "<group>"; };
 		730837581EE78A9A00150A29 /* BabyProgress.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BabyProgress.swift; sourceTree = "<group>"; };
 		7308375A1EE7988900150A29 /* SplashScreenController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SplashScreenController.swift; sourceTree = "<group>"; };
@@ -94,7 +126,6 @@
 		ABF2C14B1E78A52800685243 /* Ina */ = {
 			isa = PBXGroup;
 			children = (
-				7305D99B1ED78EBE00ADF5FD /* test1.pdf */,
 				ABF2C14C1E78A52800685243 /* AppDelegate.swift */,
 				7308375A1EE7988900150A29 /* SplashScreenController.swift */,
 				ABF2C14E1E78A52800685243 /* ViewController.swift */,
@@ -102,6 +133,23 @@
 				739E6A401EDD0ED30094FF3C /* References.storyboard */,
 				731C406A1F074A4300170C9B /* Tutorial.storyboard */,
 				ABF2C1531E78A52800685243 /* Assets.xcassets */,
+				4B8A57F5223F4F7200C66429 /* Coteau.pdf */,
+				4B8A57F0223F4F7100C66429 /* GPTCHB.pdf */,
+				4B8A57F1223F4F7100C66429 /* IHS.pdf */,
+				4B8A57ED223F4F7100C66429 /* Little Steps Daycare.pdf */,
+				4B8A57EC223F4F7100C66429 /* MCH.pdf */,
+				4B8A57F8223F4F7200C66429 /* Medicaid Eligibility.pdf */,
+				4B8A57F9223F4F7200C66429 /* Roberts County.pdf */,
+				4B8A57EF223F4F7100C66429 /* Sisseton Dental.pdf */,
+				4B8A57F7223F4F7200C66429 /* Sisseton Nurse.pdf */,
+				4B8A57EE223F4F7100C66429 /* Social Services.pdf */,
+				4B8A57F4223F4F7200C66429 /* SWO Education.pdf */,
+				4B8A57FA223F4F7200C66429 /* SWO Food.pdf */,
+				4B8A57F6223F4F7200C66429 /* SWO Health Education.pdf */,
+				4B8A57FB223F4F7200C66429 /* SWO Health Rep.pdf */,
+				4B8A57F3223F4F7100C66429 /* SWO MCH.pdf */,
+				4B8A57FC223F4F7200C66429 /* SWO Pride.pdf */,
+				4B8A57F2223F4F7100C66429 /* WIC.pdf */,
 				ABF2C1551E78A52800685243 /* LaunchScreen.storyboard */,
 				ABF2C1581E78A52800685243 /* Info.plist */,
 				731C40661F073A4C00170C9B /* TutorialController.swift */,
@@ -184,11 +232,27 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4B8A5805223F4F7300C66429 /* SWO Education.pdf in Resources */,
+				4B8A580B223F4F7300C66429 /* SWO Food.pdf in Resources */,
+				4B8A5809223F4F7300C66429 /* Medicaid Eligibility.pdf in Resources */,
 				ABF2C1571E78A52800685243 /* LaunchScreen.storyboard in Resources */,
-				7305D99C1ED78EBE00ADF5FD /* test1.pdf in Resources */,
 				ABF2C1541E78A52800685243 /* Assets.xcassets in Resources */,
+				4B8A580A223F4F7300C66429 /* Roberts County.pdf in Resources */,
+				4B8A57FF223F4F7300C66429 /* Social Services.pdf in Resources */,
+				4B8A580C223F4F7300C66429 /* SWO Health Rep.pdf in Resources */,
 				739E6A421EDD0ED30094FF3C /* References.storyboard in Resources */,
+				4B8A5804223F4F7300C66429 /* SWO MCH.pdf in Resources */,
+				4B8A57FE223F4F7300C66429 /* Little Steps Daycare.pdf in Resources */,
+				4B8A5802223F4F7300C66429 /* IHS.pdf in Resources */,
+				4B8A5806223F4F7300C66429 /* Coteau.pdf in Resources */,
+				4B8A5803223F4F7300C66429 /* WIC.pdf in Resources */,
+				4B8A580D223F4F7300C66429 /* SWO Pride.pdf in Resources */,
+				4B8A57FD223F4F7300C66429 /* MCH.pdf in Resources */,
+				4B8A5808223F4F7300C66429 /* Sisseton Nurse.pdf in Resources */,
+				4B8A5807223F4F7300C66429 /* SWO Health Education.pdf in Resources */,
+				4B8A5801223F4F7300C66429 /* GPTCHB.pdf in Resources */,
 				731C406B1F074A4300170C9B /* Tutorial.storyboard in Resources */,
+				4B8A5800223F4F7300C66429 /* Sisseton Dental.pdf in Resources */,
 				ABF2C1521E78A52800685243 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
