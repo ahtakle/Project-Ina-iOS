@@ -24,6 +24,26 @@
 		4B8A580B223F4F7300C66429 /* SWO Food.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 4B8A57FA223F4F7200C66429 /* SWO Food.pdf */; };
 		4B8A580C223F4F7300C66429 /* SWO Health Rep.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 4B8A57FB223F4F7200C66429 /* SWO Health Rep.pdf */; };
 		4B8A580D223F4F7300C66429 /* SWO Pride.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 4B8A57FC223F4F7200C66429 /* SWO Pride.pdf */; };
+		5700152E228CC2A4001FCD27 /* Gestational Diabetes.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 5700152D228CC2A4001FCD27 /* Gestational Diabetes.pdf */; };
+		57001544228CC314001FCD27 /* Abnormal Pregnancies.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 57001531228CC310001FCD27 /* Abnormal Pregnancies.pdf */; };
+		57001545228CC314001FCD27 /* Pre-eclampsia.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 57001532228CC311001FCD27 /* Pre-eclampsia.pdf */; };
+		57001546228CC314001FCD27 /* Next Steps After Finding Out You're Pregnant.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 57001533228CC311001FCD27 /* Next Steps After Finding Out You're Pregnant.pdf */; };
+		57001547228CC314001FCD27 /* Healthy Relationships.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 57001534228CC311001FCD27 /* Healthy Relationships.pdf */; };
+		57001548228CC314001FCD27 /* Preterm Birth.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 57001535228CC311001FCD27 /* Preterm Birth.pdf */; };
+		57001549228CC314001FCD27 /* Substance Abuse During Pregnancy.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 57001536228CC311001FCD27 /* Substance Abuse During Pregnancy.pdf */; };
+		5700154A228CC314001FCD27 /* Teenage Pregnancy.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 57001537228CC311001FCD27 /* Teenage Pregnancy.pdf */; };
+		5700154B228CC314001FCD27 /* Breastfeeding.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 57001538228CC311001FCD27 /* Breastfeeding.pdf */; };
+		5700154C228CC314001FCD27 /* Prenatal Tests.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 57001539228CC311001FCD27 /* Prenatal Tests.pdf */; };
+		5700154D228CC314001FCD27 /* Pre-Conception Health.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 5700153A228CC312001FCD27 /* Pre-Conception Health.pdf */; };
+		5700154E228CC314001FCD27 /* Preparing for Delivery.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 5700153B228CC312001FCD27 /* Preparing for Delivery.pdf */; };
+		5700154F228CC314001FCD27 /* Safe Medications During Pregnancy.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 5700153C228CC312001FCD27 /* Safe Medications During Pregnancy.pdf */; };
+		57001550228CC314001FCD27 /* Prenatal Check-ups.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 5700153D228CC312001FCD27 /* Prenatal Check-ups.pdf */; };
+		57001551228CC314001FCD27 /* Domestic Violence.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 5700153E228CC313001FCD27 /* Domestic Violence.pdf */; };
+		57001552228CC314001FCD27 /* Ultrasound Exam.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 5700153F228CC313001FCD27 /* Ultrasound Exam.pdf */; };
+		57001553228CC314001FCD27 /* Postpartum Depression.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 57001540228CC313001FCD27 /* Postpartum Depression.pdf */; };
+		57001554228CC314001FCD27 /* Healthy Diet.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 57001541228CC313001FCD27 /* Healthy Diet.pdf */; };
+		57001555228CC314001FCD27 /* Family Planning.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 57001542228CC314001FCD27 /* Family Planning.pdf */; };
+		57001556228CC314001FCD27 /* Alcohol During Pregnancy.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 57001543228CC314001FCD27 /* Alcohol During Pregnancy.pdf */; };
 		7305D9941ED7520300ADF5FD /* GlossaryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7305D9931ED7520300ADF5FD /* GlossaryTableViewCell.swift */; };
 		7305D9961ED7548300ADF5FD /* GlossaryTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7305D9951ED7548300ADF5FD /* GlossaryTableViewController.swift */; };
 		7305D9981ED7556F00ADF5FD /* Glossary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7305D9971ED7556F00ADF5FD /* Glossary.swift */; };
@@ -68,6 +88,26 @@
 		4B8A57FA223F4F7200C66429 /* SWO Food.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = "SWO Food.pdf"; path = "Assets.xcassets/pdf_assets/SWO Food.pdf"; sourceTree = "<group>"; };
 		4B8A57FB223F4F7200C66429 /* SWO Health Rep.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = "SWO Health Rep.pdf"; path = "Assets.xcassets/pdf_assets/SWO Health Rep.pdf"; sourceTree = "<group>"; };
 		4B8A57FC223F4F7200C66429 /* SWO Pride.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = "SWO Pride.pdf"; path = "Assets.xcassets/pdf_assets/SWO Pride.pdf"; sourceTree = "<group>"; };
+		5700152D228CC2A4001FCD27 /* Gestational Diabetes.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = "Gestational Diabetes.pdf"; path = "Assets.xcassets/pdf_assets/Gestational Diabetes.pdf"; sourceTree = "<group>"; };
+		57001531228CC310001FCD27 /* Abnormal Pregnancies.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = "Abnormal Pregnancies.pdf"; path = "Assets.xcassets/pdf_assets/Abnormal Pregnancies.pdf"; sourceTree = "<group>"; };
+		57001532228CC311001FCD27 /* Pre-eclampsia.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = "Pre-eclampsia.pdf"; path = "Assets.xcassets/pdf_assets/Pre-eclampsia.pdf"; sourceTree = "<group>"; };
+		57001533228CC311001FCD27 /* Next Steps After Finding Out You're Pregnant.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = "Next Steps After Finding Out You're Pregnant.pdf"; path = "Assets.xcassets/pdf_assets/Next Steps After Finding Out You're Pregnant.pdf"; sourceTree = "<group>"; };
+		57001534228CC311001FCD27 /* Healthy Relationships.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = "Healthy Relationships.pdf"; path = "Assets.xcassets/pdf_assets/Healthy Relationships.pdf"; sourceTree = "<group>"; };
+		57001535228CC311001FCD27 /* Preterm Birth.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = "Preterm Birth.pdf"; path = "Assets.xcassets/pdf_assets/Preterm Birth.pdf"; sourceTree = "<group>"; };
+		57001536228CC311001FCD27 /* Substance Abuse During Pregnancy.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = "Substance Abuse During Pregnancy.pdf"; path = "Assets.xcassets/pdf_assets/Substance Abuse During Pregnancy.pdf"; sourceTree = "<group>"; };
+		57001537228CC311001FCD27 /* Teenage Pregnancy.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = "Teenage Pregnancy.pdf"; path = "Assets.xcassets/pdf_assets/Teenage Pregnancy.pdf"; sourceTree = "<group>"; };
+		57001538228CC311001FCD27 /* Breastfeeding.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = Breastfeeding.pdf; path = Assets.xcassets/pdf_assets/Breastfeeding.pdf; sourceTree = "<group>"; };
+		57001539228CC311001FCD27 /* Prenatal Tests.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = "Prenatal Tests.pdf"; path = "Assets.xcassets/pdf_assets/Prenatal Tests.pdf"; sourceTree = "<group>"; };
+		5700153A228CC312001FCD27 /* Pre-Conception Health.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = "Pre-Conception Health.pdf"; path = "Assets.xcassets/pdf_assets/Pre-Conception Health.pdf"; sourceTree = "<group>"; };
+		5700153B228CC312001FCD27 /* Preparing for Delivery.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = "Preparing for Delivery.pdf"; path = "Assets.xcassets/pdf_assets/Preparing for Delivery.pdf"; sourceTree = "<group>"; };
+		5700153C228CC312001FCD27 /* Safe Medications During Pregnancy.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = "Safe Medications During Pregnancy.pdf"; path = "Assets.xcassets/pdf_assets/Safe Medications During Pregnancy.pdf"; sourceTree = "<group>"; };
+		5700153D228CC312001FCD27 /* Prenatal Check-ups.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = "Prenatal Check-ups.pdf"; path = "Assets.xcassets/pdf_assets/Prenatal Check-ups.pdf"; sourceTree = "<group>"; };
+		5700153E228CC313001FCD27 /* Domestic Violence.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = "Domestic Violence.pdf"; path = "Assets.xcassets/pdf_assets/Domestic Violence.pdf"; sourceTree = "<group>"; };
+		5700153F228CC313001FCD27 /* Ultrasound Exam.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = "Ultrasound Exam.pdf"; path = "Assets.xcassets/pdf_assets/Ultrasound Exam.pdf"; sourceTree = "<group>"; };
+		57001540228CC313001FCD27 /* Postpartum Depression.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = "Postpartum Depression.pdf"; path = "Assets.xcassets/pdf_assets/Postpartum Depression.pdf"; sourceTree = "<group>"; };
+		57001541228CC313001FCD27 /* Healthy Diet.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = "Healthy Diet.pdf"; path = "Assets.xcassets/pdf_assets/Healthy Diet.pdf"; sourceTree = "<group>"; };
+		57001542228CC314001FCD27 /* Family Planning.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = "Family Planning.pdf"; path = "Assets.xcassets/pdf_assets/Family Planning.pdf"; sourceTree = "<group>"; };
+		57001543228CC314001FCD27 /* Alcohol During Pregnancy.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = "Alcohol During Pregnancy.pdf"; path = "Assets.xcassets/pdf_assets/Alcohol During Pregnancy.pdf"; sourceTree = "<group>"; };
 		7305D9931ED7520300ADF5FD /* GlossaryTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GlossaryTableViewCell.swift; sourceTree = "<group>"; };
 		7305D9951ED7548300ADF5FD /* GlossaryTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GlossaryTableViewController.swift; sourceTree = "<group>"; };
 		7305D9971ED7556F00ADF5FD /* Glossary.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Glossary.swift; sourceTree = "<group>"; };
@@ -142,6 +182,26 @@
 				4B8A57F9223F4F7200C66429 /* Roberts County.pdf */,
 				4B8A57EF223F4F7100C66429 /* Sisseton Dental.pdf */,
 				4B8A57F7223F4F7200C66429 /* Sisseton Nurse.pdf */,
+				5700152D228CC2A4001FCD27 /* Gestational Diabetes.pdf */,
+				57001531228CC310001FCD27 /* Abnormal Pregnancies.pdf */,
+				57001543228CC314001FCD27 /* Alcohol During Pregnancy.pdf */,
+				57001538228CC311001FCD27 /* Breastfeeding.pdf */,
+				5700153E228CC313001FCD27 /* Domestic Violence.pdf */,
+				57001542228CC314001FCD27 /* Family Planning.pdf */,
+				57001541228CC313001FCD27 /* Healthy Diet.pdf */,
+				57001534228CC311001FCD27 /* Healthy Relationships.pdf */,
+				57001533228CC311001FCD27 /* Next Steps After Finding Out You're Pregnant.pdf */,
+				57001540228CC313001FCD27 /* Postpartum Depression.pdf */,
+				5700153A228CC312001FCD27 /* Pre-Conception Health.pdf */,
+				57001532228CC311001FCD27 /* Pre-eclampsia.pdf */,
+				5700153D228CC312001FCD27 /* Prenatal Check-ups.pdf */,
+				57001539228CC311001FCD27 /* Prenatal Tests.pdf */,
+				5700153B228CC312001FCD27 /* Preparing for Delivery.pdf */,
+				57001535228CC311001FCD27 /* Preterm Birth.pdf */,
+				5700153C228CC312001FCD27 /* Safe Medications During Pregnancy.pdf */,
+				57001536228CC311001FCD27 /* Substance Abuse During Pregnancy.pdf */,
+				57001537228CC311001FCD27 /* Teenage Pregnancy.pdf */,
+				5700153F228CC313001FCD27 /* Ultrasound Exam.pdf */,
 				4B8A57EE223F4F7100C66429 /* Social Services.pdf */,
 				4B8A57F4223F4F7200C66429 /* SWO Education.pdf */,
 				4B8A57FA223F4F7200C66429 /* SWO Food.pdf */,
@@ -236,22 +296,42 @@
 				4B8A580B223F4F7300C66429 /* SWO Food.pdf in Resources */,
 				4B8A5809223F4F7300C66429 /* Medicaid Eligibility.pdf in Resources */,
 				ABF2C1571E78A52800685243 /* LaunchScreen.storyboard in Resources */,
+				5700154C228CC314001FCD27 /* Prenatal Tests.pdf in Resources */,
 				ABF2C1541E78A52800685243 /* Assets.xcassets in Resources */,
+				5700154A228CC314001FCD27 /* Teenage Pregnancy.pdf in Resources */,
 				4B8A580A223F4F7300C66429 /* Roberts County.pdf in Resources */,
+				57001550228CC314001FCD27 /* Prenatal Check-ups.pdf in Resources */,
 				4B8A57FF223F4F7300C66429 /* Social Services.pdf in Resources */,
+				5700154B228CC314001FCD27 /* Breastfeeding.pdf in Resources */,
 				4B8A580C223F4F7300C66429 /* SWO Health Rep.pdf in Resources */,
 				739E6A421EDD0ED30094FF3C /* References.storyboard in Resources */,
+				57001554228CC314001FCD27 /* Healthy Diet.pdf in Resources */,
 				4B8A5804223F4F7300C66429 /* SWO MCH.pdf in Resources */,
+				5700154E228CC314001FCD27 /* Preparing for Delivery.pdf in Resources */,
+				5700154F228CC314001FCD27 /* Safe Medications During Pregnancy.pdf in Resources */,
 				4B8A57FE223F4F7300C66429 /* Little Steps Daycare.pdf in Resources */,
+				57001544228CC314001FCD27 /* Abnormal Pregnancies.pdf in Resources */,
 				4B8A5802223F4F7300C66429 /* IHS.pdf in Resources */,
+				57001549228CC314001FCD27 /* Substance Abuse During Pregnancy.pdf in Resources */,
+				5700152E228CC2A4001FCD27 /* Gestational Diabetes.pdf in Resources */,
 				4B8A5806223F4F7300C66429 /* Coteau.pdf in Resources */,
 				4B8A5803223F4F7300C66429 /* WIC.pdf in Resources */,
 				4B8A580D223F4F7300C66429 /* SWO Pride.pdf in Resources */,
+				57001545228CC314001FCD27 /* Pre-eclampsia.pdf in Resources */,
 				4B8A57FD223F4F7300C66429 /* MCH.pdf in Resources */,
 				4B8A5808223F4F7300C66429 /* Sisseton Nurse.pdf in Resources */,
+				57001552228CC314001FCD27 /* Ultrasound Exam.pdf in Resources */,
+				57001553228CC314001FCD27 /* Postpartum Depression.pdf in Resources */,
 				4B8A5807223F4F7300C66429 /* SWO Health Education.pdf in Resources */,
 				4B8A5801223F4F7300C66429 /* GPTCHB.pdf in Resources */,
 				731C406B1F074A4300170C9B /* Tutorial.storyboard in Resources */,
+				57001547228CC314001FCD27 /* Healthy Relationships.pdf in Resources */,
+				57001555228CC314001FCD27 /* Family Planning.pdf in Resources */,
+				57001551228CC314001FCD27 /* Domestic Violence.pdf in Resources */,
+				57001556228CC314001FCD27 /* Alcohol During Pregnancy.pdf in Resources */,
+				57001546228CC314001FCD27 /* Next Steps After Finding Out You're Pregnant.pdf in Resources */,
+				5700154D228CC314001FCD27 /* Pre-Conception Health.pdf in Resources */,
+				57001548228CC314001FCD27 /* Preterm Birth.pdf in Resources */,
 				4B8A5800223F4F7300C66429 /* Sisseton Dental.pdf in Resources */,
 				ABF2C1521E78A52800685243 /* Main.storyboard in Resources */,
 			);
