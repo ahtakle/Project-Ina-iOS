@@ -24,6 +24,8 @@
 		4B8A580B223F4F7300C66429 /* SWO Food.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 4B8A57FA223F4F7200C66429 /* SWO Food.pdf */; };
 		4B8A580C223F4F7300C66429 /* SWO Health Rep.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 4B8A57FB223F4F7200C66429 /* SWO Health Rep.pdf */; };
 		4B8A580D223F4F7300C66429 /* SWO Pride.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 4B8A57FC223F4F7200C66429 /* SWO Pride.pdf */; };
+		57D76CE12298838400ED9113 /* Head Start.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 57D76CE02298838400ED9113 /* Head Start.pdf */; };
+		57D76CE32298840500ED9113 /* SWO Early Childhood Intervention.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 57D76CE22298840500ED9113 /* SWO Early Childhood Intervention.pdf */; };
 		7305D9941ED7520300ADF5FD /* GlossaryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7305D9931ED7520300ADF5FD /* GlossaryTableViewCell.swift */; };
 		7305D9961ED7548300ADF5FD /* GlossaryTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7305D9951ED7548300ADF5FD /* GlossaryTableViewController.swift */; };
 		7305D9981ED7556F00ADF5FD /* Glossary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7305D9971ED7556F00ADF5FD /* Glossary.swift */; };
@@ -68,6 +70,8 @@
 		4B8A57FA223F4F7200C66429 /* SWO Food.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = "SWO Food.pdf"; path = "Assets.xcassets/pdf_assets/SWO Food.pdf"; sourceTree = "<group>"; };
 		4B8A57FB223F4F7200C66429 /* SWO Health Rep.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = "SWO Health Rep.pdf"; path = "Assets.xcassets/pdf_assets/SWO Health Rep.pdf"; sourceTree = "<group>"; };
 		4B8A57FC223F4F7200C66429 /* SWO Pride.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = "SWO Pride.pdf"; path = "Assets.xcassets/pdf_assets/SWO Pride.pdf"; sourceTree = "<group>"; };
+		57D76CE02298838400ED9113 /* Head Start.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = "Head Start.pdf"; path = "Assets.xcassets/pdf_assets/Head Start.pdf"; sourceTree = "<group>"; };
+		57D76CE22298840500ED9113 /* SWO Early Childhood Intervention.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = "SWO Early Childhood Intervention.pdf"; path = "Assets.xcassets/pdf_assets/SWO Early Childhood Intervention.pdf"; sourceTree = "<group>"; };
 		7305D9931ED7520300ADF5FD /* GlossaryTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GlossaryTableViewCell.swift; sourceTree = "<group>"; };
 		7305D9951ED7548300ADF5FD /* GlossaryTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GlossaryTableViewController.swift; sourceTree = "<group>"; };
 		7305D9971ED7556F00ADF5FD /* Glossary.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Glossary.swift; sourceTree = "<group>"; };
@@ -144,7 +148,9 @@
 				4B8A57F7223F4F7200C66429 /* Sisseton Nurse.pdf */,
 				4B8A57EE223F4F7100C66429 /* Social Services.pdf */,
 				4B8A57F4223F4F7200C66429 /* SWO Education.pdf */,
+				57D76CE02298838400ED9113 /* Head Start.pdf */,
 				4B8A57FA223F4F7200C66429 /* SWO Food.pdf */,
+				57D76CE22298840500ED9113 /* SWO Early Childhood Intervention.pdf */,
 				4B8A57F6223F4F7200C66429 /* SWO Health Education.pdf */,
 				4B8A57FB223F4F7200C66429 /* SWO Health Rep.pdf */,
 				4B8A57F3223F4F7100C66429 /* SWO MCH.pdf */,
@@ -237,6 +243,8 @@
 				4B8A5809223F4F7300C66429 /* Medicaid Eligibility.pdf in Resources */,
 				ABF2C1571E78A52800685243 /* LaunchScreen.storyboard in Resources */,
 				ABF2C1541E78A52800685243 /* Assets.xcassets in Resources */,
+				57D76CE32298840500ED9113 /* SWO Early Childhood Intervention.pdf in Resources */,
+				57D76CE12298838400ED9113 /* Head Start.pdf in Resources */,
 				4B8A580A223F4F7300C66429 /* Roberts County.pdf in Resources */,
 				4B8A57FF223F4F7300C66429 /* Social Services.pdf in Resources */,
 				4B8A580C223F4F7300C66429 /* SWO Health Rep.pdf in Resources */,
